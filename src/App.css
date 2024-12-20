@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+}
+
+button {
+  cursor: pointer;
+}
+
+.nav__link {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.register {
+  background-color: rgb(160, 82, 233);
+  color: #fff;
+}
+
+.register:hover {
+  opacity: 0.9;
+}
+
+.logout {
+  border-radius: 50%;
+  padding: 8px 15px;
+  border: none;
+  background-color: rgb(160, 82, 233);
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.img__skeleton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skeleton {
+  background-color: rgb(188, 192, 195);
+  margin-right: 10px;
+}
+
+.link__skeleton {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.link__skeleton-logout {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
